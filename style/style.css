@@ -7,6 +7,8 @@
 body{
     font-family: 'Open Sans', sans-serif;
     color: white;
+    background-color: black;
+    
 
 }
 
@@ -15,6 +17,15 @@ header{
     background-color: black;
 
     gap: 1rem;
+}
+
+path{
+    fill: currentColor !important;
+    width: 80%;
+}
+
+header span{
+    gap: 5px;
 }
 
 .d-flex{
@@ -40,6 +51,8 @@ header{
     align-items: center;
 
 }
+
+
 
 .view img {
     float: left;
@@ -68,9 +81,55 @@ header{
 .card{
     padding: 10px;
     width: 100%;
+    position: relative;
 }
 
 .card img{
     width: 100%;
     height: 100px;
+}
+
+.badge{
+    background-color: lightgray;
+    padding: 2px;
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+}
+
+footer{
+    height: 150px;
+    background-color: #222222;
+}
+
+.mic-cam{
+    width: 10%;
+}
+
+.menu{
+    width: 80%;
+}
+
+.end{
+    width: 10%;
+    background-color: #4a4a4a;
+}
+
+footer div{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.mic{
+    width: 40%;
+}
+
+.end span{
+    color: red;
+}
+
+#green{
+    color: rgb(17, 202, 17);
 }
