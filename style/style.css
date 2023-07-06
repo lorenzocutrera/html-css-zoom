@@ -62,7 +62,7 @@ header span{
 .container{
     max-width: 1170px;
     margin: 0 auto;
-    height: calc(100vh - 70px - 150px);
+    height: calc(100vh - 70px - 100px);
     overflow: scroll;
 
 }
@@ -98,7 +98,7 @@ header span{
 }
 
 footer{
-    height: 150px;
+    height: 100px;
     background-color: #222222;
 }
 
